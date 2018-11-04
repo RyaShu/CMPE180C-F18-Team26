@@ -128,7 +128,7 @@ void* Producer(){
           sleep(rand()%10);
           item = rand() % 10 + 1;
           if(insert_item(item) == 0){
-              printf("Successfully produce %d to the buffer\n", item);
+              printf("Successfully produce the item %d to the buffer\n", item);
               printf("\n");
           }else{
               printf("producer error found\n");
