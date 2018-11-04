@@ -144,7 +144,7 @@ void* Consumer(){
     while(1) {
         sleep(rand()%10);
         if(remove_item(&item) == 0){
-            printf("Successfully removed the item %d of the buffer\n", item);
+            printf("Successfully removed the item %d from the buffer\n", item);
             printf("\n");
         }else{
             printf("consumer error found\n");
